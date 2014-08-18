@@ -1,0 +1,30 @@
+{
+    "color": {
+        "gamma": 2.5,
+        "whitepoint": [
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    "devices": [
+        {
+            "led": false,
+            "map": [
+                [0,0,0,64]
+            ],
+            "serial": "UNKNOWN",
+            "type": "fadecandy"
+        },
+        {
+            "led": false,
+            "map": [
+                [0,64,0,64]
+            ],
+            "serial": "UNKNOWN",
+            "type": "fadecandy"
+        }
+    ],
+    "listen": [null,7890],
+    "verbose": true
+}
