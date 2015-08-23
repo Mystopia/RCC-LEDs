@@ -4,8 +4,8 @@
 
 import opc, time
 
-numPairs = 128 * 5
-client = opc.Client('localhost:7891')
+numPairs = 64 * 8 * 2
+client = opc.Client('localhost:7890')
 
 black = [ (0,0,0), (0,0,0) ] * numPairs
 white = [ (255,255,255), (0,0,0) ] * numPairs
