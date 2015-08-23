@@ -5,10 +5,12 @@
 var OPC = new require('./opc')
 var client = new OPC('localhost', 7890);
 
+var numPixels = 64 * 8 * 4;
+
 function draw() {
     var millis = new Date().getTime();
 
-    for (var pixel = 0; pixel < 128 * 10; pixel++)
+    for (var pixel = 0; pixel < numPixels; pixel++)
     {
         var t = pixel * 0.2 + millis * 0.002;
         var red = 128 + 96 * Math.sin(t);
