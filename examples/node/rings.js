@@ -14,7 +14,7 @@ var simplex = new SimplexNoise(Math.random);
 
 var OPC = new require('./opc');
 var model = OPC.loadModel(process.argv[2] || '../layouts/grid32x16z.json');
-var client = new OPC('localhost', 7891);
+var client = new OPC('localhost', 7890);
 
 var noiseScale = 0.02;
 var speed = 0.002;
